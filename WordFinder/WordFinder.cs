@@ -17,9 +17,6 @@ namespace WordFinder
             InitializeComponent();
             wordCountLabel.Visible = false;
             sentenceCountLabel.Visible = false;
-
-            articleRichTextBox.Text = "hi i am sakib. sakib is me sakib. that is why i am sakib, Sakib. sakibulhasan and me sakib. sakiB is montagonusticuslong.";
-            wordSearchingTextBox.Text = "sakib";
         }
 
         private void searchButoon_Click(object sender, EventArgs e)
